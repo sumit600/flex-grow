@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  gap: 2px;
+}
+html .sect,
+body .sect {
+  height: 100%;
+  flex-grow: 1;
+  background-color: rgb(142, 194, 228);
+  background-position: center;
+  background-size: cover;
+  transition: all 1.5s ease;
+}
+html .sect:nth-child(1),
+body .sect:nth-child(1) {
+  background-image: url(SPIDERMAN\ IN\ DARK.jpeg);
+}
+html .sect:nth-child(2),
+body .sect:nth-child(2) {
+  background-image: url(Monkey\ D_\ Luffy😍😎.jpeg);
+}
+html .sect:nth-child(3),
+body .sect:nth-child(3) {
+  background-image: url(roronoa\ zoro.jpeg);
+}
+html .sect:nth-child(4),
+body .sect:nth-child(4) {
+  background-image: url(download\ \(20\).jpeg);
+}
+html .sect:nth-child(5),
+body .sect:nth-child(5) {
+  background-image: url(download\ \(19\).jpeg);
+}
+html .sect:hover,
+body .sect:hover {
+  flex-grow: 2;
+}/*# sourceMappingURL=style.css.map */
